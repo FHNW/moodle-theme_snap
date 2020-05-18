@@ -703,51 +703,51 @@ li.section:focus {
 // Snap native assets - books, page, images
 // -------------------------
 
-//.section li.snap-native {
-//    border: none;
-//    height: auto;
-//    margin: 0.5em auto;
-//
-//    .asset-wrapper {
-//        padding: 0;
-//    }
-//
-//    .activityicon,
-//    .snap-assettype {
-//        display: none;
-//    }
-//
-//    .contentafterlink {
-//        font-size: 1em;
-//        padding-bottom: 1em;
-//    }
-//
-//    .summary-figure {
-//        text-align: center;
-//    }
-//
-//    // some stuff for hide and show
-//    .pagemod-content {
-//        display: none;
-//        clear: both;
-//        padding: 1em 0;
-//
-//        &:focus {
-//            outline: 0;
-//        }
-//    }
-//
-//    .summary-text + h6 {
-//        clear: left;
-//    }
-//
-//    &.state-expanded {
-//        .summary-text,
-//        .summary-figure {
-//            display: none;
-//        }
-//    }
-//}
+.section li.snap-native {
+    border: none;
+    height: auto;
+    margin: 0.5em auto;
+
+    .asset-wrapper {
+        padding: 0;
+    }
+
+    .activityicon,
+    .snap-assettype {
+        display: none;
+    }
+
+    .contentafterlink {
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+
+    .summary-figure {
+        text-align: center;
+    }
+
+    // some stuff for hide and show
+    .pagemod-content {
+        display: none;
+        clear: both;
+        padding: 1em 0;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    .summary-text + h6 {
+        clear: left;
+    }
+
+    &.state-expanded {
+        .summary-text,
+        .summary-figure {
+            display: none;
+        }
+    }
+}
 
 @include media-breakpoint-up(md) {
     li.modtype_page .summary-figure {
@@ -899,14 +899,11 @@ body.snap-resource-card li.snap-resource {
     }
 
     // ADOBE //
+    &.snap-mime-pdf,
     &.snap-mime-eps,
     &.snap-mime-flash {
         border-top-color: $color-pdf;
         background-image: url([[pix:core|/f/pdf]]);
-    }
-
-    &.snap-mime-pdf {
-        border-top-color: $color-pdf;
     }
 
     &.snap-mime-flash {
@@ -1066,7 +1063,7 @@ body.snap-resource-card {
 // -----------------------------------------------------------
 body.snap-resource-card {
     li.snap-resource.snap-resource-long {
-        height: 260px;
+        height: 21em;
     }
     // Hide multimedia content on resource cards description.
     li.snap-resource.snap-resource-long.modtype_url,

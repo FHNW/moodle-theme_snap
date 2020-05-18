@@ -217,3 +217,5 @@ if ($runningbehattest) {
 }
 
 $THEME->requiredblocks = $requiredblocks;
+
+

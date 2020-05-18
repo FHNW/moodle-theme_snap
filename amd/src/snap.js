@@ -560,6 +560,17 @@ define(['jquery', 'core/log', 'theme_snap/headroom', 'theme_snap/util', 'theme_s
         }
 
         /**
+         * Disable browser context menu if a video tag is on the page
+         */
+        var disableBrowserContextMenu = function() {
+          $(document).bind("contextmenu", function(ev) {
+              if (ev.target.nodeName == 'VIDEO') {
+                  return false;
+              }
+          });
+        };
+
+        /**
          * AMD return object.
          */
         return {
@@ -620,6 +631,8 @@ define(['jquery', 'core/log', 'theme_snap/headroom', 'theme_snap/util', 'theme_s
                     addListeners(); // essential
                     applyBlockHash(); // change location hash if necessary
                     bodyClasses(); // add body classes
+                    disableBrowserContextMenu(); // needed for FHNW, that the students can't download videos
+                    console.log('snap');
 
                     // Make sure that the blocks are always within page-content for assig view page.
                     $('#page-mod-assign-view #page-content').append($('#moodle-blocks'));
@@ -901,19 +914,17 @@ define(['jquery', 'core/log', 'theme_snap/headroom', 'theme_snap/util', 'theme_s
                     }
 
                     // Review if settings block is missing.
-                    if (!$('.block_settings').length) {
+                    if (inAlternativeRole) {
                         // Hide admin icon.
                         $('#admin-menu-trigger').hide();
-                        if (inAlternativeRole) {
-                            // Handle possible alternative role.
-                            require(
-                                [
-                                    'theme_snap/alternative_role_handler-lazy'
-                                ], function(alternativeRoleHandler) {
-                                    alternativeRoleHandler.init(courseConfig.id);
-                                }
-                            );
-                        }
+                        // Handle possible alternative role.
+                        require(
+                            [
+                                'theme_snap/alternative_role_handler-lazy'
+                            ], function(alternativeRoleHandler) {
+                                alternativeRoleHandler.init(courseConfig.id);
+                            }
+                        );
                     }
 
                     // Add tab logic so search is focused before admin.

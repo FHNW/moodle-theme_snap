@@ -1,0 +1,573 @@
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.theme-snap #mr-nav a,
+.theme-snap #mr-nav #snap-pm-trigger,
+.theme-snap #mr-nav #nav-notification-popover-container .icon.fa-bell,
+.theme-snap #mr-nav #snap-pm-trigger {
+    color: #000000;
+}
+
+#mr-nav {
+    background-color: #FDE70E;
+}
+
+btn, input, button, a.btn.btn-primary {
+     border-radius: 0 !important;
+}
+
+// Links unterstrichen wegen Sichtbarkeit ausser in Buttons.
+p > a:not(.btn) {
+        text-decoration: underline;
+}
+
+// TODO: PDF Previews werden nur deaktiviert. Core Funktionalität PDF Preview sollte richtig deaktiviert werden
+
+.section li.snap-extended-resource .contentafterlink {
+   font-size: small;
+   display: none;
+}
+
+
+
+.theme-snap .btn.btn-default, .theme-snap #page-grade-grading-manage .actions .action.btn-default, #page-grade-grading-manage .actions .theme-snap .action.btn-default, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-default, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-default, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-default, .theme-snap .btn.btn-secondary, .theme-snap #page-grade-grading-manage .actions .action.btn-secondary, .theme-snap #page-grade-grading-manage .actions .btn-default.action, .theme-snap #page-grade-grading-manage .actions #page-mod-quiz-review .arrow_link.action, #page-mod-quiz-review .theme-snap #page-grade-grading-manage .actions .arrow_link.action, .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .addgroup input.action, .gradingform_checklist.editor .addgroup .theme-snap #page-grade-grading-manage .actions input.action, .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .additem input.action, .gradingform_checklist.editor .additem .theme-snap #page-grade-grading-manage .actions input.action, .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addlevel input.action, .gradingform_rubric.editor .addlevel .theme-snap #page-grade-grading-manage .actions input.action, .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addcriterion input.action, .gradingform_rubric.editor .addcriterion .theme-snap #page-grade-grading-manage .actions input.action, #page-grade-grading-manage .actions .theme-snap .action.btn-secondary, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-mod-quiz-review input.arrow_link, #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .addgroup input, .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .additem input, .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addlevel input, .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addcriterion input, .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-secondary, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-secondary, .theme-snap #rubric-rubric.gradingform_rubric .btn-default.addcriterion, .theme-snap #rubric-rubric.gradingform_rubric #page-mod-quiz-review .arrow_link.addcriterion, #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric .arrow_link.addcriterion, .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .addgroup input.addcriterion, .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion, .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .additem input.addcriterion, .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion, .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addlevel input.addcriterion, .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion, .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addcriterion input.addcriterion, .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-secondary, .theme-snap .btn-default.btn, .theme-snap #page-mod-quiz-review .arrow_link.btn, .theme-snap #page-mod-quiz-review #page-grade-grading-manage .actions .action.arrow_link, #page-grade-grading-manage .actions .theme-snap #page-mod-quiz-review .action.arrow_link, .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-mod-quiz-review input.arrow_link, .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric .addcriterion.arrow_link, #rubric-rubric.gradingform_rubric .theme-snap #page-mod-quiz-review .addcriterion.arrow_link, #page-mod-quiz-review .theme-snap .arrow_link.btn, .theme-snap .gradingform_checklist.editor .addgroup input.btn, .theme-snap .gradingform_checklist.editor .addgroup #page-grade-grading-manage .actions input.action, #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .addgroup input.action, .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .addgroup input, .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric input.addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .addgroup input.addcriterion, .gradingform_checklist.editor .addgroup .theme-snap input.btn, .theme-snap .gradingform_checklist.editor .additem input.btn, .theme-snap .gradingform_checklist.editor .additem #page-grade-grading-manage .actions input.action, #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .additem input.action, .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .additem input, .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric input.addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .additem input.addcriterion, .gradingform_checklist.editor .additem .theme-snap input.btn, .theme-snap .gradingform_rubric.editor .addlevel input.btn, .theme-snap .gradingform_rubric.editor .addlevel #page-grade-grading-manage .actions input.action, #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addlevel input.action, .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addlevel input, .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric input.addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addlevel input.addcriterion, .gradingform_rubric.editor .addlevel .theme-snap input.btn, .theme-snap .gradingform_rubric.editor .addcriterion input.btn, .theme-snap .gradingform_rubric.editor .addcriterion #page-grade-grading-manage .actions input.action, #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addcriterion input.action, .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addcriterion input, .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric input.addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addcriterion input.addcriterion, .gradingform_rubric.editor .addcriterion .theme-snap input.btn, .theme-snap .btn.btn-outline-primary, .theme-snap #page-grade-grading-manage .actions .action.btn-outline-primary, .theme-snap #page-grade-grading-manage .actions #page-site-index .section-modchooser-link .section-modchooser-text.action, #page-site-index .section-modchooser-link .theme-snap #page-grade-grading-manage .actions .section-modchooser-text.action, #page-grade-grading-manage .actions .theme-snap .action.btn-outline-primary, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-primary, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-site-index .section-modchooser-link input.section-modchooser-text, #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-primary, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-primary, .theme-snap #rubric-rubric.gradingform_rubric #page-site-index .section-modchooser-link .section-modchooser-text.addcriterion, #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric .section-modchooser-text.addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-primary, .theme-snap #page-site-index .section-modchooser-link .section-modchooser-text.btn, .theme-snap #page-site-index .section-modchooser-link #page-grade-grading-manage .actions .action.section-modchooser-text, #page-grade-grading-manage .actions .theme-snap #page-site-index .section-modchooser-link .action.section-modchooser-text, .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-site-index .section-modchooser-link input.section-modchooser-text, .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric .addcriterion.section-modchooser-text, #rubric-rubric.gradingform_rubric .theme-snap #page-site-index .section-modchooser-link .addcriterion.section-modchooser-text, #page-site-index .section-modchooser-link .theme-snap .section-modchooser-text.btn, .theme-snap .btn.btn-outline-secondary, .theme-snap #page-grade-grading-manage .actions .action.btn-outline-secondary, #page-grade-grading-manage .actions .theme-snap .action.btn-outline-secondary, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-secondary, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-secondary, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-secondary, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-secondary, .theme-snap .button-group>button, .theme-snap input.form-submit, .theme-snap .atto_form button, .theme-snap .gradingform_checklist.editor .addgroup input, .theme-snap .gradingform_checklist.editor .additem input, .theme-snap .gradingform_rubric.editor .addlevel input, .theme-snap .gradingform_rubric.editor .addcriterion input, .theme-snap .paging.paging-morelink a, .theme-snap a.yui3-button, .theme-snap .yui-button button, .theme-snap .header-button-group .btn, .theme-snap .header-button-group #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .theme-snap .header-button-group .action, .theme-snap .header-button-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .header-button-group input, .theme-snap .header-button-group #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .theme-snap .header-button-group .addcriterion, .theme-snap#page-site-index .section-modchooser-link .section-modchooser-text {
+    color: #000;
+    border-color: #fde70e;
+    background-color: #fde70e;
+    border-radius: 0 !important;
+}
+
+.theme-snap .button-group>button.default:hover, .theme-snap .btn.btn-primary:hover, .theme-snap #page-grade-grading-manage .actions .action.btn-primary:hover, #page-grade-grading-manage .actions .theme-snap .action.btn-primary:hover, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-primary:hover, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-primary:hover, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-primary:hover, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-primary:hover, .theme-snap .button-group>button.default:focus, .theme-snap .btn.btn-primary:focus, .theme-snap #page-grade-grading-manage .actions .action.btn-primary:focus, #page-grade-grading-manage .actions .theme-snap .action.btn-primary:focus, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-primary:focus, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-primary:focus, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-primary:focus, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-primary:focus, .theme-snap .button-group>button.default:active, .theme-snap .btn.btn-primary:active, .theme-snap #page-grade-grading-manage .actions .action.btn-primary:active, #page-grade-grading-manage .actions .theme-snap .action.btn-primary:active, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-primary:active, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-primary:active, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-primary:active, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-primary:active, .theme-snap .button-group>button.default.active, .theme-snap .btn.btn-primary.active, .theme-snap #page-grade-grading-manage .actions .action.btn-primary.active, #page-grade-grading-manage .actions .theme-snap .action.btn-primary.active, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-primary.active, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-primary.active, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-primary.active, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-primary.active {
+    background-color: #000;
+    border-color: #000;
+    color: #ffffff;
+    outline: 0;
+}
+
+.theme-snap .btn.btn-default:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-default:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-default:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-default:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-default:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-default:hover:not(:disabled), .theme-snap .btn.btn-secondary:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-secondary:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .btn-default.action:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-mod-quiz-review .arrow_link.action:hover:not(:disabled), #page-mod-quiz-review .theme-snap #page-grade-grading-manage .actions .arrow_link.action:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .addgroup input.action:hover:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #page-grade-grading-manage .actions input.action:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .additem input.action:hover:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #page-grade-grading-manage .actions input.action:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addlevel input.action:hover:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #page-grade-grading-manage .actions input.action:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addcriterion input.action:hover:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #page-grade-grading-manage .actions input.action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-secondary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-mod-quiz-review input.arrow_link:hover:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .addgroup input:hover:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .additem input:hover:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addlevel input:hover:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addcriterion input:hover:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-secondary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-secondary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .btn-default.addcriterion:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-mod-quiz-review .arrow_link.addcriterion:hover:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric .arrow_link.addcriterion:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .addgroup input.addcriterion:hover:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .additem input.addcriterion:hover:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addlevel input.addcriterion:hover:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addcriterion input.addcriterion:hover:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-secondary:hover:not(:disabled), .theme-snap .btn-default.btn:hover:not(:disabled), .theme-snap #page-mod-quiz-review .arrow_link.btn:hover:not(:disabled), .theme-snap #page-mod-quiz-review #page-grade-grading-manage .actions .action.arrow_link:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-mod-quiz-review .action.arrow_link:hover:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-mod-quiz-review input.arrow_link:hover:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric .addcriterion.arrow_link:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-mod-quiz-review .addcriterion.arrow_link:hover:not(:disabled), #page-mod-quiz-review .theme-snap .arrow_link.btn:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input.btn:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #page-grade-grading-manage .actions input.action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .addgroup input.action:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .addgroup input:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .addgroup input.addcriterion:hover:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap input.btn:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input.btn:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #page-grade-grading-manage .actions input.action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .additem input.action:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .additem input:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .additem input.addcriterion:hover:not(:disabled), .gradingform_checklist.editor .additem .theme-snap input.btn:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input.btn:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #page-grade-grading-manage .actions input.action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addlevel input.action:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addlevel input:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addlevel input.addcriterion:hover:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap input.btn:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input.btn:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #page-grade-grading-manage .actions input.action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addcriterion input.action:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addcriterion input:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric input.addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addcriterion input.addcriterion:hover:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap input.btn:hover:not(:disabled), .theme-snap .btn.btn-outline-primary:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-primary:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-site-index .section-modchooser-link .section-modchooser-text.action:hover:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #page-grade-grading-manage .actions .section-modchooser-text.action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-primary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-primary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-site-index .section-modchooser-link input.section-modchooser-text:hover:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-primary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-primary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-site-index .section-modchooser-link .section-modchooser-text.addcriterion:hover:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric .section-modchooser-text.addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-primary:hover:not(:disabled), .theme-snap #page-site-index .section-modchooser-link .section-modchooser-text.btn:hover:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #page-grade-grading-manage .actions .action.section-modchooser-text:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-site-index .section-modchooser-link .action.section-modchooser-text:hover:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-site-index .section-modchooser-link input.section-modchooser-text:hover:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric .addcriterion.section-modchooser-text:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-site-index .section-modchooser-link .addcriterion.section-modchooser-text:hover:not(:disabled), #page-site-index .section-modchooser-link .theme-snap .section-modchooser-text.btn:hover:not(:disabled), .theme-snap .btn.btn-outline-secondary:hover:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-secondary:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-secondary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-secondary:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-secondary:hover:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-secondary:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-secondary:hover:not(:disabled), .theme-snap .button-group>button:hover:not(:disabled), .theme-snap input.form-submit:hover:not(:disabled), .theme-snap .atto_form button:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input:hover:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input:hover:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input:hover:not(:disabled), .theme-snap .paging.paging-morelink a:hover:not(:disabled), .theme-snap a.yui3-button:hover:not(:disabled), .theme-snap .yui-button button:hover:not(:disabled), .theme-snap .header-button-group .btn:hover:not(:disabled), .theme-snap .header-button-group #page-grade-grading-manage .actions .action:hover:not(:disabled), #page-grade-grading-manage .actions .theme-snap .header-button-group .action:hover:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .header-button-group input:hover:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric .addcriterion:hover:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .header-button-group .addcriterion:hover:not(:disabled), .theme-snap#page-site-index .section-modchooser-link .section-modchooser-text:hover:not(:disabled), .theme-snap .btn.btn-default:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-default:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-default:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-default:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-default:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-default:focus:not(:disabled), .theme-snap .btn.btn-secondary:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-secondary:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .btn-default.action:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-mod-quiz-review .arrow_link.action:focus:not(:disabled), #page-mod-quiz-review .theme-snap #page-grade-grading-manage .actions .arrow_link.action:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .addgroup input.action:focus:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #page-grade-grading-manage .actions input.action:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .additem input.action:focus:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #page-grade-grading-manage .actions input.action:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addlevel input.action:focus:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #page-grade-grading-manage .actions input.action:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addcriterion input.action:focus:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #page-grade-grading-manage .actions input.action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-secondary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-mod-quiz-review input.arrow_link:focus:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .addgroup input:focus:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .additem input:focus:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addlevel input:focus:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addcriterion input:focus:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-secondary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-secondary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .btn-default.addcriterion:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-mod-quiz-review .arrow_link.addcriterion:focus:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric .arrow_link.addcriterion:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .addgroup input.addcriterion:focus:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .additem input.addcriterion:focus:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addlevel input.addcriterion:focus:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addcriterion input.addcriterion:focus:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-secondary:focus:not(:disabled), .theme-snap .btn-default.btn:focus:not(:disabled), .theme-snap #page-mod-quiz-review .arrow_link.btn:focus:not(:disabled), .theme-snap #page-mod-quiz-review #page-grade-grading-manage .actions .action.arrow_link:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-mod-quiz-review .action.arrow_link:focus:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-mod-quiz-review input.arrow_link:focus:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric .addcriterion.arrow_link:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-mod-quiz-review .addcriterion.arrow_link:focus:not(:disabled), #page-mod-quiz-review .theme-snap .arrow_link.btn:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input.btn:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #page-grade-grading-manage .actions input.action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .addgroup input.action:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .addgroup input:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .addgroup input.addcriterion:focus:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap input.btn:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input.btn:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #page-grade-grading-manage .actions input.action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .additem input.action:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .additem input:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .additem input.addcriterion:focus:not(:disabled), .gradingform_checklist.editor .additem .theme-snap input.btn:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input.btn:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #page-grade-grading-manage .actions input.action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addlevel input.action:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addlevel input:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addlevel input.addcriterion:focus:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap input.btn:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input.btn:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #page-grade-grading-manage .actions input.action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addcriterion input.action:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addcriterion input:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric input.addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addcriterion input.addcriterion:focus:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap input.btn:focus:not(:disabled), .theme-snap .btn.btn-outline-primary:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-primary:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-site-index .section-modchooser-link .section-modchooser-text.action:focus:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #page-grade-grading-manage .actions .section-modchooser-text.action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-primary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-primary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-site-index .section-modchooser-link input.section-modchooser-text:focus:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-primary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-primary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-site-index .section-modchooser-link .section-modchooser-text.addcriterion:focus:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric .section-modchooser-text.addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-primary:focus:not(:disabled), .theme-snap #page-site-index .section-modchooser-link .section-modchooser-text.btn:focus:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #page-grade-grading-manage .actions .action.section-modchooser-text:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-site-index .section-modchooser-link .action.section-modchooser-text:focus:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-site-index .section-modchooser-link input.section-modchooser-text:focus:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric .addcriterion.section-modchooser-text:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-site-index .section-modchooser-link .addcriterion.section-modchooser-text:focus:not(:disabled), #page-site-index .section-modchooser-link .theme-snap .section-modchooser-text.btn:focus:not(:disabled), .theme-snap .btn.btn-outline-secondary:focus:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-secondary:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-secondary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-secondary:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-secondary:focus:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-secondary:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-secondary:focus:not(:disabled), .theme-snap .button-group>button:focus:not(:disabled), .theme-snap input.form-submit:focus:not(:disabled), .theme-snap .atto_form button:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input:focus:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input:focus:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input:focus:not(:disabled), .theme-snap .paging.paging-morelink a:focus:not(:disabled), .theme-snap a.yui3-button:focus:not(:disabled), .theme-snap .yui-button button:focus:not(:disabled), .theme-snap .header-button-group .btn:focus:not(:disabled), .theme-snap .header-button-group #page-grade-grading-manage .actions .action:focus:not(:disabled), #page-grade-grading-manage .actions .theme-snap .header-button-group .action:focus:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .header-button-group input:focus:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric .addcriterion:focus:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .header-button-group .addcriterion:focus:not(:disabled), .theme-snap#page-site-index .section-modchooser-link .section-modchooser-text:focus:not(:disabled), .theme-snap .btn.btn-default:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-default:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-default:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-default:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-default:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-default:active:not(:disabled), .theme-snap .btn.btn-secondary:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-secondary:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .btn-default.action:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-mod-quiz-review .arrow_link.action:active:not(:disabled), #page-mod-quiz-review .theme-snap #page-grade-grading-manage .actions .arrow_link.action:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .addgroup input.action:active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #page-grade-grading-manage .actions input.action:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .additem input.action:active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #page-grade-grading-manage .actions input.action:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addlevel input.action:active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #page-grade-grading-manage .actions input.action:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addcriterion input.action:active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #page-grade-grading-manage .actions input.action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-secondary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-mod-quiz-review input.arrow_link:active:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .addgroup input:active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .additem input:active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addlevel input:active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addcriterion input:active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-secondary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-secondary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .btn-default.addcriterion:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-mod-quiz-review .arrow_link.addcriterion:active:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric .arrow_link.addcriterion:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .addgroup input.addcriterion:active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .additem input.addcriterion:active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addlevel input.addcriterion:active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addcriterion input.addcriterion:active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-secondary:active:not(:disabled), .theme-snap .btn-default.btn:active:not(:disabled), .theme-snap #page-mod-quiz-review .arrow_link.btn:active:not(:disabled), .theme-snap #page-mod-quiz-review #page-grade-grading-manage .actions .action.arrow_link:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-mod-quiz-review .action.arrow_link:active:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-mod-quiz-review input.arrow_link:active:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric .addcriterion.arrow_link:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-mod-quiz-review .addcriterion.arrow_link:active:not(:disabled), #page-mod-quiz-review .theme-snap .arrow_link.btn:active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input.btn:active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #page-grade-grading-manage .actions input.action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .addgroup input.action:active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .addgroup input:active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .addgroup input.addcriterion:active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap input.btn:active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input.btn:active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #page-grade-grading-manage .actions input.action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .additem input.action:active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .additem input:active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .additem input.addcriterion:active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap input.btn:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input.btn:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #page-grade-grading-manage .actions input.action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addlevel input.action:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addlevel input:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addlevel input.addcriterion:active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap input.btn:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input.btn:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #page-grade-grading-manage .actions input.action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addcriterion input.action:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addcriterion input:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric input.addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addcriterion input.addcriterion:active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap input.btn:active:not(:disabled), .theme-snap .btn.btn-outline-primary:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-primary:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-site-index .section-modchooser-link .section-modchooser-text.action:active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #page-grade-grading-manage .actions .section-modchooser-text.action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-primary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-primary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-site-index .section-modchooser-link input.section-modchooser-text:active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-primary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-primary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-site-index .section-modchooser-link .section-modchooser-text.addcriterion:active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric .section-modchooser-text.addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-primary:active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link .section-modchooser-text.btn:active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #page-grade-grading-manage .actions .action.section-modchooser-text:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-site-index .section-modchooser-link .action.section-modchooser-text:active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-site-index .section-modchooser-link input.section-modchooser-text:active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric .addcriterion.section-modchooser-text:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-site-index .section-modchooser-link .addcriterion.section-modchooser-text:active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap .section-modchooser-text.btn:active:not(:disabled), .theme-snap .btn.btn-outline-secondary:active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-secondary:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-secondary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-secondary:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-secondary:active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-secondary:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-secondary:active:not(:disabled), .theme-snap .button-group>button:active:not(:disabled), .theme-snap input.form-submit:active:not(:disabled), .theme-snap .atto_form button:active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input:active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input:active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input:active:not(:disabled), .theme-snap .paging.paging-morelink a:active:not(:disabled), .theme-snap a.yui3-button:active:not(:disabled), .theme-snap .yui-button button:active:not(:disabled), .theme-snap .header-button-group .btn:active:not(:disabled), .theme-snap .header-button-group #page-grade-grading-manage .actions .action:active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .header-button-group .action:active:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .header-button-group input:active:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric .addcriterion:active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .header-button-group .addcriterion:active:not(:disabled), .theme-snap#page-site-index .section-modchooser-link .section-modchooser-text:active:not(:disabled), .theme-snap .btn.btn-default.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-default.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-default.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-default.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-default.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-default.active:not(:disabled), .theme-snap .btn.btn-secondary.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-secondary.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .fp-viewbar:not(.disabled) a.checked.action:not(:disabled), .fp-viewbar:not(.disabled) .theme-snap #page-grade-grading-manage .actions a.checked.action:not(:disabled), .theme-snap #page-grade-grading-manage .actions .btn-default.action.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-mod-quiz-review .arrow_link.action.active:not(:disabled), #page-mod-quiz-review .theme-snap #page-grade-grading-manage .actions .arrow_link.action.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .addgroup input.action.active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #page-grade-grading-manage .actions input.action.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_checklist.editor .additem input.action.active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #page-grade-grading-manage .actions input.action.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addlevel input.action.active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #page-grade-grading-manage .actions input.action.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .gradingform_rubric.editor .addcriterion input.action.active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #page-grade-grading-manage .actions input.action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-secondary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-mod-quiz-review input.arrow_link.active:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .addgroup input.active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_checklist.editor .additem input.active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addlevel input.active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .gradingform_rubric.editor .addcriterion input.active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-secondary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-secondary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .fp-viewbar:not(.disabled) a.checked.addcriterion:not(:disabled), .fp-viewbar:not(.disabled) .theme-snap #rubric-rubric.gradingform_rubric a.checked.addcriterion:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .btn-default.addcriterion.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-mod-quiz-review .arrow_link.addcriterion.active:not(:disabled), #page-mod-quiz-review .theme-snap #rubric-rubric.gradingform_rubric .arrow_link.addcriterion.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .addgroup input.addcriterion.active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_checklist.editor .additem input.addcriterion.active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addlevel input.addcriterion.active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .gradingform_rubric.editor .addcriterion input.addcriterion.active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-secondary.active:not(:disabled), .theme-snap .fp-viewbar:not(.disabled) a.checked.btn:not(:disabled), .theme-snap .fp-viewbar:not(.disabled) #page-grade-grading-manage .actions a.action.checked:not(:disabled), #page-grade-grading-manage .actions .theme-snap .fp-viewbar:not(.disabled) a.action.checked:not(:disabled), .theme-snap .fp-viewbar:not(.disabled) #rubric-rubric.gradingform_rubric a.addcriterion.checked:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .fp-viewbar:not(.disabled) a.addcriterion.checked:not(:disabled), .fp-viewbar:not(.disabled) .theme-snap a.checked.btn:not(:disabled), .theme-snap .btn-default.btn.active:not(:disabled), .theme-snap #page-mod-quiz-review .arrow_link.btn.active:not(:disabled), .theme-snap #page-mod-quiz-review #page-grade-grading-manage .actions .action.arrow_link.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-mod-quiz-review .action.arrow_link.active:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.arrow_link.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-mod-quiz-review input.arrow_link.active:not(:disabled), .theme-snap #page-mod-quiz-review #rubric-rubric.gradingform_rubric .addcriterion.arrow_link.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-mod-quiz-review .addcriterion.arrow_link.active:not(:disabled), #page-mod-quiz-review .theme-snap .arrow_link.btn.active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input.btn.active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #page-grade-grading-manage .actions input.action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .addgroup input.action.active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .addgroup input.active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .addgroup input.addcriterion.active:not(:disabled), .gradingform_checklist.editor .addgroup .theme-snap input.btn.active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input.btn.active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #page-grade-grading-manage .actions input.action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_checklist.editor .additem input.action.active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_checklist.editor .additem input.active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_checklist.editor .additem input.addcriterion.active:not(:disabled), .gradingform_checklist.editor .additem .theme-snap input.btn.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input.btn.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #page-grade-grading-manage .actions input.action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addlevel input.action.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addlevel input.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addlevel input.addcriterion.active:not(:disabled), .gradingform_rubric.editor .addlevel .theme-snap input.btn.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input.btn.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #page-grade-grading-manage .actions input.action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .gradingform_rubric.editor .addcriterion input.action.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .gradingform_rubric.editor .addcriterion input.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion #rubric-rubric.gradingform_rubric input.addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .gradingform_rubric.editor .addcriterion input.addcriterion.active:not(:disabled), .gradingform_rubric.editor .addcriterion .theme-snap input.btn.active:not(:disabled), .theme-snap .btn.btn-outline-primary.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-primary.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions #page-site-index .section-modchooser-link .section-modchooser-text.action.active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #page-grade-grading-manage .actions .section-modchooser-text.action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-primary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-primary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-site-index .section-modchooser-link input.section-modchooser-text.active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-primary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-primary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #page-site-index .section-modchooser-link .section-modchooser-text.addcriterion.active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap #rubric-rubric.gradingform_rubric .section-modchooser-text.addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-primary.active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link .section-modchooser-text.btn.active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #page-grade-grading-manage .actions .action.section-modchooser-text.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap #page-site-index .section-modchooser-link .action.section-modchooser-text.active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.section-modchooser-text.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap #page-site-index .section-modchooser-link input.section-modchooser-text.active:not(:disabled), .theme-snap #page-site-index .section-modchooser-link #rubric-rubric.gradingform_rubric .addcriterion.section-modchooser-text.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap #page-site-index .section-modchooser-link .addcriterion.section-modchooser-text.active:not(:disabled), #page-site-index .section-modchooser-link .theme-snap .section-modchooser-text.btn.active:not(:disabled), .theme-snap .btn.btn-outline-secondary.active:not(:disabled), .theme-snap #page-grade-grading-manage .actions .action.btn-outline-secondary.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .action.btn-outline-secondary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-outline-secondary.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-outline-secondary.active:not(:disabled), .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-outline-secondary.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-outline-secondary.active:not(:disabled), .theme-snap .button-group>button.active:not(:disabled), .theme-snap input.form-submit.active:not(:disabled), .theme-snap .atto_form button.active:not(:disabled), .theme-snap .gradingform_checklist.editor .addgroup input.active:not(:disabled), .theme-snap .gradingform_checklist.editor .additem input.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addlevel input.active:not(:disabled), .theme-snap .gradingform_rubric.editor .addcriterion input.active:not(:disabled), .theme-snap .paging.paging-morelink a.active:not(:disabled), .theme-snap a.yui3-button.active:not(:disabled), .theme-snap .yui-button button.active:not(:disabled), .theme-snap .header-button-group .btn.active:not(:disabled), .theme-snap .header-button-group #page-grade-grading-manage .actions .action.active:not(:disabled), #page-grade-grading-manage .actions .theme-snap .header-button-group .action.active:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:not(:disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap .header-button-group input.active:not(:disabled), .theme-snap .header-button-group #rubric-rubric.gradingform_rubric .addcriterion.active:not(:disabled), #rubric-rubric.gradingform_rubric .theme-snap .header-button-group .addcriterion.active:not(:disabled), .theme-snap#page-site-index .section-modchooser-link .section-modchooser-text.active:not(:disabled) {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    outline: none;
+}
+
+.theme-snap a:not(.btn):not(.dropdown-item):not(._blanktarget):not(.snap-due-date):not(.yui3-button):not(.mast-breadcrumb):not(.active):not(.disabled):focus, .theme-snap .btn-link:focus, .theme-snap .fake-link:focus, .theme-snap a:not(.btn):not(.dropdown-item):not(._blanktarget):not(.snap-due-date):not(.yui3-button):not(.mast-breadcrumb):not(.active):not(.disabled):hover, .theme-snap .btn-link:hover, .theme-snap .fake-link:hover {
+    color: #000000;
+}
+
+.theme-snap .nav-pills a.nav-link.active, .theme-snap .nav-tabs a.nav-link.active {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.theme-snap a:not(.btn):not(.dropdown-item):not(._blanktarget):not(.snap-due-date):not(.yui3-button):not(.mast-breadcrumb):not(.active):not(.disabled), .theme-snap .btn-link, .theme-snap .fake-link {
+    color: #000;
+}
+
+#snap-pm-header h1, #snap-pm-header a {
+    color: #767573 !important;
+    padding-top: 0;
+    text-decoration: none !important;
+}
+
+.theme-snap #mr-nav a:hover, .theme-snap #mr-nav a:focus {
+    color: #000000;
+}
+
+.theme-snap .button-group>button.default, .theme-snap .btn.btn-primary, .theme-snap #page-grade-grading-manage .actions .action.btn-primary, #page-grade-grading-manage .actions .theme-snap .action.btn-primary, .theme-snap #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-primary, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .theme-snap input.btn-primary, .theme-snap #rubric-rubric.gradingform_rubric .addcriterion.btn-primary, #rubric-rubric.gradingform_rubric .theme-snap .addcriterion.btn-primary {
+    color: #767573;
+    background-color: #ffffff;
+    border-color: #767573;
+}
+
+.theme-snap #id_cancel {
+    color: #000;
+    border-radius: 0;
+    padding: 7px 15px;
+    border: 1px solid;
+    
+    &:hover {
+        text-decoration: none;
+        background-color: #fde70e;
+        color: #000;
+        border-color: #fde70e;
+    }
+}
+
+#snap-feature-spots {
+    text-align: left;
+}
+
+#snap-feature-spots h2 {
+    padding-bottom: 0.75em;
+}
+#snap-feature-spots h3 {
+    font-size: 1.25em;
+    border-bottom: 4px solid #deded9;
+    padding-bottom: 0.333rem;
+}
+
+// fonts
+
+/ *h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, legend, .mform legend a, .mform legend a:hover, .coursebox .info .coursename, .form_autocomplete_selection, .form_autocomplete_suggestions, .collapsibleregioncaption, .snap-featured-course-title {
+    font-family: Raleway,Roboto,"Fira Sans","Segoe UI","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+} */
+
+h3.coursename a {
+    color: #000 !important;
+}
+
+// logo
+
+#snap-home.logo {
+    background-image: url(/theme/snap/pix/FHNW_10mm_logo.svg) !important;
+    height: 40px;
+    max-width: 250px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: left center;
+}
+
+@media (max-width: 1000px){
+#snap-home.logo {
+    background-image: url(/theme/snap/pix/FHNW_10mm_logo-NW.svg) !important;
+    height: 40px;
+    max-width: 250px;
+    margin: 0px -60% 0px 0px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: left center;
+}
+}
+
+
+#page-site-index #page-header {
+    background-image: url(/theme/snap/pix/site-image.jpg);
+    padding-top: 12.7%;
+    padding-bottom: 1.75em;
+    max-height: 400px;
+    border-bottom: 0;
+    margin: 0;
+    position: relative;
+}
+
+#page-site-index #page-header::after {
+    content: "";
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.settingsform {
+    max-width: 43.5em;
+    margin: 35px auto;
+}
+
+#moodle-footer {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    clear: both;
+    color: #dee2e6;
+    background-color: #000000;
+    margin: 0 auto;
+    padding: 0 4%;
+    font-size: 1em;
+}
+
+#moodle-footer h2, #moodle-footer .h2 {
+    font-size: 20px;
+}
+
+#moodle-footer table, #moodle-footer .floater .cell {
+    width: 100%;
+    font-size: 16px;
+}
+
+// Nav elements - Bell and Icon and User MyCourses
+
+#mr-nav span.hidden-xs-down {
+    color: #767573;
+}
+
+.theme-snap #mr-nav a, .theme-snap #mr-nav #snap-pm-trigger, .theme-snap #mr-nav #nav-notification-popover-container .icon.fa-bell {
+    color: #767573;
+}
+
+.theme-snap #mr-nav .icon.fa-search {
+    color: #767573;
+}
+
+// Buttons
+
+#page-user-profile div.singlebutton, .path-course.path-user div.singlebutton {
+    margin-right: 30vw;
+}
+
+#page-user-profile div.singlebutton + .singlebutton, .path-course.path-user div.singlebutton+.singlebutton {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+#page-user-profile .singlebutton, #page-user-profile .singlebutton+.singlebutton {
+    display: inline-block;
+}
+
+.singlebutton {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+#settingsnav ul {
+    font-size: 14px;
+    color: #000 !important;
+}
+
+#settingsnav ul li hr {
+    background-color: transparent;
+    padding-top: 2em;
+}
+
+
+// Disable outlines
+#page-content .block_settings.state-visible, .block_settings:target,
+#settingsnav ul li p {
+   outline: none;
+}
+
+#snap-footer-alert .snap-icon-close:before, #snap-pm .snap-icon-close:before {
+    background-image: url(/theme/image.php/snap/theme/1543331669/close_x);
+}
+
+.theme-snap #mr-nav a.snap-login-button {
+    color: #000;
+    border-color: #fbd100;
+    background-color: #f5dd19;
+}
+
+.theme-snap #mr-nav a.snap-login-button:hover, .theme-snap #mr-nav a.snap-login-button:focus {
+    color: white;
+    background-color: #000; /*#FDE70E;*/
+}
+
+
+
+#mr-nav .snap-login-button:hover, #mr-nav .snap-login-button:focus {
+    background-color: #fde70e;
+}
+
+/*
+#snap-pm-header .snap-pm-user a {
+    text-decoration: none;
+}
+
+#snap-pm-header-quicklinks a:hover {
+    text-decoration: underline;
+}
+*/
+
+.theme-snap #snap-pm-header {
+    background-color: #fde70e;
+}
+
+#page-site-index #page-mast {
+    background-color: #FFFFFF;
+    width: 45%;
+    margin: 0vh 12%;
+}
+
+#page-site-index #page-header::after {
+    content: "";
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#page.offcanvas {
+    left: 0;
+}
+
+#moodle-footer {
+  font-size: 12px;
+  padding-top: 3em !important;
+}
+
+#mrooms-footer small {
+  display:none;
+}
+#mrooms-footer:after {
+  content: 'FHNW - Fachhochschule Nordwestschweiz';
+}
+
+#existingcell,
+#potentialcell {
+    width: 50%;
+}
+
+/* Upload Form Fix */
+
+#moodle-page .mform>.form-group.fitem, #moodle-page .mform>.form-buttons.fitem, #moodle-page .path-admin .mform>.buttons.fitem, .path-admin #moodle-page .mform>.buttons.fitem, #moodle-page .mform>#fitem_id_submitbutton.fitem, #moodle-page .fp-content-center form + .mform>div.fitem, .fp-content-center #moodle-page form + .mform>div.fitem, #moodle-page div.backup-section + .mform>form.fitem, #moodle-page .mform>#fgroup_id_buttonar.fitem {
+    display: inline-block;
+    padding-top: 2em;
+    width: 100%;
+}
+
+#prev-activity-link, #next-activity-link {
+    white-space: normal;
+}
+
+.snap-form-required .form-inline[data-fieldtype="editor"] div:first-child {
+    overflow: auto;
+}
+
+#page-login-index .snap-logo-sitename, #page-login-signup .snap-logo-sitename {
+    background-size: auto;
+}
+
+#page-login-index .AAIlogin {
+    position: relative;
+    top: 54px;
+    padding: 1em 4%;
+    margin: 0em auto;
+    max-width: 30rem;
+    width: 100%;
+    background-color: rgba(255,255,255,.9);
+}
+
+.snap-logo-sitename {
+    background-image: none;
+}
+
+#page-login-index .snap-logo-sitename {
+    display: none;
+}
+
+#page-login-index .AAIlogin h2 {
+    background-image: url(/theme/snap/pix/FHNW_10mm_logo.svg) !important;
+}
+
+#page-login-index .AAIlogin h2 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin: 0;
+}
+
+.theme-snap hr {
+    background-color: black;
+    margin-top: 8px;
+    margin-bottom: 43px;
+    margin-left: -6px;
+}
+
+#page-login-index .AAIlogin p {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    margin-left: 10px;
+}
+
+#page-login-index #page-header {
+    overflow: hidden;
+    min-height: 0px;
+}
+
+#region-main {
+    overflow-x: unset;
+    max-width: 78%;
+    padding: 0 4% 2em;
+}
+
+#snap-pm-tab-current {
+    color: #000;
+}
+
+.message span p, .contact .name, .contact p span {
+    color: #000;
+    font-weight: 500;
+}
+
+#page-admin-purgecaches #notice {
+    min-height: 0;
+    position: relative;
+    padding: 10% 4%;
+    top: 1.5em;
+    left: 0;
+    z-index: 13;
+    max-width: 50%;
+    font-size: 1rem;
+    color: black;
+    border-left: 5px solid red;
+}
+
+fieldset abbr[title] {
+    font-size: .75rem;
+}
+
+.theme-snap #snap-pm-courses .nav-tabs a.nav-link.active {
+    color: inherit;
+    font-weight: 500;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #000;
+  background: #fde70e !important;
+}
+
+::selection {
+  color: #000; 
+  background: #fde70e !important;
+}
+
+select#id_templateid {
+  max-width: 24%;
+}
+
+#page-course-loginas #notice {
+    margin-top: 3em;
+    max-width: 50%;
+    color: inherit;
+}
+
+.section li.snap-extended-resource .contentafterlink {
+    font-size: 20px;
+    display: block;
+    margin-left: 47px;
+}
+
+.form-control-feedback {
+    color: #dc3545;   
+}
+
+.subquestion.form-inline.d-inline input {
+    border: none;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 1px;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.path-mod-assign [data-region="review-panel"].collapsed + [data-region="grade-panel"] [data-region="grade"], .path-mod-assign [data-region="grade-panel"].fullwidth [data-region="grade"] {
+    max-width: 80%;
+}
+
+// -------------------------
+// Snap native assets - books, page, images
+// -------------------------
+
+.section li.snap-native {
+    height: auto;
+    margin: 0.5em auto;
+
+    .activityicon,
+    .snap-assettype {
+        //display: none;
+    }
+
+    .contentafterlink {
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+
+    .summary-figure {
+        text-align: center;
+    }
+
+    // some stuff for hide and show
+    .pagemod-content {
+        display: none;
+        clear: both;
+        padding: 1em 0;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    .summary-text + h6 {
+        clear: left;
+    }
+
+    &.state-expanded {
+        .summary-text,
+        .summary-figure {
+            display: none;
+        }
+    }
+}
+
+.section li.snap-native {
+    margin: 1em 1%;
+}
+
+.box.generalbox a {
+    text-decoration: underline;
+}
+
+.fcontainer .form-inline {
+  display: flex;
+}
+
+@media (min-width: 576px) {
+    .fcontainer .form-inline .form-control {
+        width: 100%;
+    }
+}
+
+.local-evento-modulanlaesse.table {
+    overflow: auto;
+}
+
+#id_summary_editoreditable {
+  resize: vertical;
+}
+
+.news-article-preview p {
+  color: #000;
+}
+
+#returntonormalrole {
+  background-color: #fde70e;
+  border-color: #767573;
+  color: #767573;
+}
+
+#returntonormalrole > i.icon.fa.fa-user-secret.fa-fw {
+  color: #ffffff;
+}
+
+// INFOBOX
+body.snap-resource-card li.snap-resource.snap-resource-long {
+	height: 360px;
+}
+
+.section li.snap-asset .activityinstance .snap-asset-link {
+	font-size: .75rem;
+	font-weight: 500;
+	max-height: 4rem;
+}
+
+body.snap-resource-card .snap-resource-long .snap-asset-link a.mod-link p.instancename {
+	max-height: 4.5em;
+}

@@ -59,7 +59,7 @@ class featured_courses implements \renderable, \templatable {
 
         // Featured courses title.
         if (!empty($config->fc_heading)) {
-            $this->heading = $config->fc_heading;
+            $this->heading = format_string($config->fc_heading);
         }
 
         if (!empty($config->fc_browse_all)) {
@@ -120,7 +120,7 @@ class featured_courses implements \renderable, \templatable {
             $url = new moodle_url('/course/view.php?id=' .$course->id);
             $coverimageurl = local::course_coverimage_url($course->id);
             $coverimageurl = $coverimageurl ?: null;
-            $this->cards[] = new featured_course($url, $coverimageurl, $course->fullname, $i, $this->colclass);
+            $this->cards[] = new featured_course($url, $coverimageurl, format_string($course->fullname), $i, $this->colclass);
         }
     }
 }

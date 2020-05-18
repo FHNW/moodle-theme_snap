@@ -34,9 +34,9 @@
         "editurl" : "http://someurl.local"
     }
 }}
-<div id="snap-featured-courses" class="text-left">
+<div id="snap-featured-courses" class="text-center">
     <h2 class="snap-featured-courses-heading">{{heading}}</h2>
-    <div class="row text-left">
+    <div class="row text-center">
 
         {{#cards}}
         {{> theme_snap/featured_course }}

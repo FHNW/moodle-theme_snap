@@ -36,15 +36,31 @@ require(__DIR__.'/header.php');
 </div>
 
 <section id="region-main">
-<?php
-if ($PAGE->title === get_string('restoredaccount')) {
-    echo html_writer::start_div('loginerror-restoredaccount');
+    <div class="snap-login">
+        <h2>Login</h2>
+        <br>
+        <!-- EMBEDDED-WAYF-START -->
+	<script type="text/javascript">
+	var wayf_URL = "https://wayf.switch.ch/SWITCHaai/WAYF";
+	var wayf_sp_entityID = "https://" + window.location.hostname + "/shibboleth";
+	var wayf_sp_handlerURL = "https://" + window.location.hostname + "/Shibboleth.sso";
+	var wayf_return_url = "https://" + window.location.hostname + "/auth/shibboleth";
+	</script>
+	<script type="text/javascript" src="https://wayf.switch.ch/SWITCHaai/WAYF/embedded-wayf.js"></script>
+	<noscript>
+  	  <p>
+    	    <strong>Login:</strong> Javascript is not enabled for your web browser. Please use the <a href="/Shibboleth.sso/Login?target=">non-Javascript Login</a>.
+  	 </p>
+	</noscript>
+	<!-- EMBEDDED-WAYF-END -->
+        <br>
+        <a href="" data-toggle="collapse" data-target="#mainlogin"><small>Login mit manuellem Konto</small></a>
+    </div>
+    <div id="mainlogin" class="collapse">
+    <?php
     echo $OUTPUT->main_content();
-    echo html_writer::end_div();
-} else {
-    echo $OUTPUT->main_content();
-}
-?>
+    ?>
+    </div>
 </section>
 </main>
 </div>
